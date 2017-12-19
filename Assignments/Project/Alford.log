@@ -1,0 +1,1818 @@
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32836410.51308155 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32836410.51308155 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32836410.51308155 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kobe.cs.ucla.edu +69.045450-8273.45127 12343884.39202340\r\n' from client
+INFO:root:Sent back AT Alford +1499906430.4745557 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +1499906430.4745557 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received command b'AT Alford +1499906430.4745557 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32836444.028060436 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32836444.028060436 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32836444.028060436 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMTA kiwi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 73, in data_received
+    self.transport.write(outPutMsgStr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 96, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 73, in data_received
+    self.transport.write(outPutMsgStr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 96, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 73, in data_received
+    self.transport.write(outPutMsgStr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 96, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32836638.914381504 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32836638.914381504 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32836638.914381504 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 73, in data_received
+    self.transport.write(outPutMsgStr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 97, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 74, in data_received
+    self.transport.write(outPutMsgStr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 97, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMTA kiwi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32837111.8441844 kiwi 34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837111.8441844 kiwi 34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837111.8441844 kiwi 34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Received command b'IAMAT kiwi -118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32837205.686229706 kiwi -118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837205.686229706 kiwi -118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837205.686229706 kiwi -118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Received command b'IAMAT kiwi Los_Angeles 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32837284.65046358 kiwi Los_Angeles 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837284.65046358 kiwi Los_Angeles 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32837284.65046358 kiwi Los_Angeles 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Received information about client kiwi
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 NOW\r\n' from client
+INFO:root:Received command b'IAMAT kiwi +34.060000-118.000000 -1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +2991665132.8092666 kiwi +34.060000-118.000000 -1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +2991665132.8092666 kiwi +34.060000-118.000000 -1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +2991665132.8092666 kiwi +34.060000-118.000000 -1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Received information about client kiwi
+INFO:root:Received command b'IAMAT kiwi +34.060000-118.000000 -1479413884.392014450 HELLO\r\n' from client
+INFO:root:Received command b'IAMAT %b +34.060000-118.000000 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32837421.386134624 %b +34.060000-118.000000 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837421.386134624 %b +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client %b
+INFO:root:Received command b'AT Alford +32837421.386134624 %b +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client %b
+INFO:root:Received command b'IAMAT \\xff +34.060000-118.000000 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32837501.872534513 \xff +34.060000-118.000000 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837501.872534513 \\xff +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client \xff
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32837501.872534513 \\xff +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client \xff
+INFO:root:Received command b"'WHATSAT\r\n" from client
+INFO:root:Received command b'WHATSAT %b\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 78, in data_received
+    if int(input[2]) > 50 or int(input[3]) > 20:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 96, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 78, in data_received
+    if int(input[2]) > 50 or int(input[3]) > 20 or len(input) != 4:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 96, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 78, in data_received
+    if int(input[2]) > 50 or int(input[3]) > 20 or len(input) != 4:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 97, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'\t\t\t\t\tprint("error!")\r\n' from client
+INFO:root:Received command b'WHATSAT\r\n' from client
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 78, in data_received
+    if int(input[2]) > 50 or int(input[3]) > 20 or len(input) != 4:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 98, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 79, in data_received
+    if int(input[2]) > 50 or int(input[3]) > 20 or len(input) != 4:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 99, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 79, in data_received
+    if ((int(input[2]) > 50) or (int(input[3]) > 20) or (len(input) != 4)):
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 99, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'https://i.imgur.com/PYEciqa.\r\n' from client
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 79, in data_received
+    if ((int(input[2]) > 50) or (int(input[3]) > 20) or (len(input) != 4)):
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 99, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'WHATSAT %b 1000 1\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1 1000\r\n' from client
+INFO:root:Received command b'WHATSAT %b -10 10\r\n' from client
+INFO:root:Made GET request for %b
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<EchoServerClientProtocol.parseJSON() done, defined at server.py:41> exception=KeyError('%b',)>
+Traceback (most recent call last):
+  File "server.py", line 42, in parseJSON
+    clientInfo = clientDict[clientID]
+KeyError: '%b'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 79, in data_received
+    if ((int(input[2]) > 50) or (int(input[3]) > 20) or (len(input) != 4)):
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 99, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 79, in data_received
+    if ((int(input[2]) > 50) or (int(input[3]) > 20) or (len(input) != 4)):
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 99, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1 1000\r\n' from client
+INFO:root:Received command b'WHATSAT hello 10 -10\r\n' from client
+INFO:root:Made GET request for hello
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<EchoServerClientProtocol.parseJSON() done, defined at server.py:41> exception=KeyError('hello',)>
+Traceback (most recent call last):
+  File "server.py", line 42, in parseJSON
+    clientInfo = clientDict[clientID]
+KeyError: 'hello'
+INFO:root:Received command b'WHATSAT %b r 10\\\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    print("error!")
+ValueError: invalid literal for int() with base 10: 'r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 104, in data_received
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'WHATSAT %b r 10\\\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    print("error!")
+ValueError: invalid literal for int() with base 10: 'r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 104, in data_received
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'WHATSAT %b 10 l\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    print("error!")
+ValueError: invalid literal for int() with base 10: 'l\r\n'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 104, in data_received
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT\r\n' from client
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 87, in data_received
+    if not checkValidWHATSAT(input):
+NameError: name 'checkValidWHATSAT' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 106, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT\r\n' from client
+INFO:root:Received command b'WHATSAT %b\r\n' from client
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1000 1\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1 1000\r\n' from client
+INFO:root:Received command b'WHATSAT %b -10 10\r\n' from client
+INFO:root:Received command b'WHATSAT %b 10 -10\r\n' from client
+INFO:root:Received command b'WHATSAT hello 10 -10\r\n' from client
+INFO:root:Received command b'WHATSAT %b 10 l\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 87, in data_received
+    if not self.checkValidWHATSAT(input):
+  File "server.py", line 39, in checkValidWHATSAT
+    elif int(command[2]) > 50 or int(command[3]) > 20:
+ValueError: invalid literal for int() with base 10: 'l\r\n'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 106, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT hello 10 -10\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841320.15234852 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 78, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 108, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841375.4431715 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'WHATSAT hello 10 10\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841490.468337536 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841598.03583336 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841634.999742508 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841709.05022049 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'WHATSAT\r\n' from client
+INFO:root:Received command b'WHATSAT %b 2\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1000 1\r\n' from client
+INFO:root:Received command b'WHATSAT %b 1 1000\r\n' from client
+INFO:root:Received command b'WHATSAT %b -10 10\r\n' from client
+INFO:root:Received command b'HATSAT %b 10 -10\r\n' from client
+INFO:root:Received command b'WHATSAT %b 10 -10\r\n' from client
+INFO:root:Received command b'WHATSAT hello 10 -10\r\n' from client
+INFO:root:Received command b'WHATSAT %b r 10\r\n' from client
+INFO:root:Received command b'WHATSAT %b 10 l\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32841895.107456684 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 2\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 1\r\n' from client
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 114, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32842172.661969423 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 2\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32842346.13641262 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMTA kiwi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32842454.63612652 kiwi 34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    outPutMsg = bytes(outPutMsgStr, 'utf-8')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 114, in data_received
+    if (timeDifference > 0):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 84, in data_received
+    outPutMsg = bytes(outPutMsgStr, 'utf-8')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 114, in data_received
+    if (timeDifference > 0):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 83, in data_received
+    if (len(input) != 4 or not self.checkValidIAMAT(input[3])):
+  File "server.py", line 30, in checkValidIAMAT
+    if not (contains[2].find('+') or contains[2].find('-')):
+NameError: name 'contains' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 110, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 83, in data_received
+    if (len(input) != 4 or not self.checkValidIAMAT(input[3])):
+  File "server.py", line 30, in checkValidIAMAT
+    if not (contains[2].find('+') or contains[2].find('-')):
+NameError: name 'contains' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 110, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 83, in data_received
+    if (len(input) != 4 or not self.checkValidIAMAT(input[3]) or not self.checkValidIAMAT(input)):
+  File "server.py", line 30, in checkValidIAMAT
+    if not (contains[2].find('+') or contains[2].find('-')):
+NameError: name 'contains' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 110, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    if (len(input) != 4 or not self.checkValidIAMAT(input[3]) or not self.hasPlusMinus(input)):
+  File "server.py", line 37, in hasPlusMinus
+    if not (contains[2].find('+') or contains[2].find('-')):
+NameError: name 'contains' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 113, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843057.513638496 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843388.39244151 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843412.53174472 kiwi 34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi -118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843453.3270185 kiwi -118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843464.65467763 kiwi +18.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi Los_Angeles 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32843480.55749154 kiwi Los_Angeles 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT ki wi +34.068930-118.445127 NOW\\\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 NOW\r\n' from client
+INFO:root:Received command b'IAMAT kiwi +34.060000-118.000000 -1479413884.392014450 HELLO\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 85, in data_received
+    logging.info("Received command {} from client".format(command))
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 115, in data_received
+    self.transport.write(outPutMsg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 87, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 117, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844711.452136517 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844839.61764264 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi -118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844862.005376577 kiwi +18.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi Los_Angeles 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu Los_Angeles 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi -118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844939.44440651 kiwi +18.445127 1479413884.3920145
+ to user
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844974.897391558 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32844984.003736496 kiwi +18.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32845277.350949526 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 116, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 116, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 116, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 116, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Received command b'\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32845757.580528498 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32845779.86059928 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18042)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18042)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<BaseEventLoop.create_connection() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:680> exception=ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 18044)")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 18044)
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 10 5\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 100 2\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32846011.800989628 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32846011.800989628 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32846011.800989628 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32846078.19081354 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32846131.28200054 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32846131.28200054 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32846131.28200054 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32846147.645225525 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32846147.645225525 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32846147.645225525 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kobe.cs.ucla.edu +69.045450-8273.45127 12343884.39202340\r\n' from client
+INFO:root:Sent back AT Alford +1499916162.4647489 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +1499916162.4647489 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'AT Alford +1499916162.4647489 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32846193.797495365 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32846193.797495365 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32846193.797495365 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'WHATSAT hello 10 10\r\n' from client
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 20 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'\xff\xf4\xff\xfd\x06' from client
+ERROR:asyncio:Exception in callback _SelectorSocketTransport._read_ready()
+handle: <Handle _SelectorSocketTransport._read_ready()>
+Traceback (most recent call last):
+  File "server.py", line 86, in data_received
+    command = command.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 731, in _read_ready
+    self._protocol.data_received(data)
+  File "server.py", line 116, in data_received
+    self.transport.write('?  {0}'.format(command))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 747, in write
+    'not %r' % type(data).__name__)
+TypeError: data argument must be a bytes-like object, not 'str'
+INFO:root:Received command b'\r\n' from client
+INFO:root:Server Alford created
+INFO:root:Connected to server Alford
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32873902.100238323 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32873902.100238323 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32873902.100238323 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32873918.430867434 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32873918.430867434 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received command b'AT Alford +32873918.430867434 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32873949.311436415 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32873949.311436415 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32873949.311436415 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu
+INFO:root:Received command b'IAMAT kiwi 34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi -118.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi +18.445127 1479413884.392014450\r\n' from client
+INFO:root:Received command b'IAMAT kiwi Los_Angeles 1479413884.392014450\r\n' from client
+INFO:root:Received command b'WHATSAT shaq 10 10\r\n' from client
+INFO:root:Received command b'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32874040.227552652 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Received command b'IAMAT kobe.cs.ucla.edu +69.045450-8273.45127 12343884.39202340\r\n' from client
+INFO:root:Sent back AT Alford +1499944061.3229487 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +1499944061.3229487 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received command b'AT Alford +1499944061.3229487 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kobe.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kobe.cs.ucla.edu
+INFO:root:Received command b'IAMAT kobe.cs.ucla.edu +69.045450-873.45127 12343884.39202340\r\n' from client
+INFO:root:Sent back AT Alford +1499944121.6992285 kobe.cs.ucla.edu +69.045450-873.45127 12343884.3920234
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +1499944121.6992285 kobe.cs.ucla.edu +69.045450-873.45127 12343884.3920234\n' from client
+INFO:root:Received command b'AT Alford +1499944121.6992285 kobe.cs.ucla.edu +69.045450-873.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kobe.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kobe.cs.ucla.edu
+INFO:root:Received command b'IAMAT kobe.cs.ucla.edu +34.068930-118.445127 1479413884.392014450\r\n' from client
+INFO:root:Sent back AT Alford +32874140.90269041 kobe.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+ to user
+INFO:root:Sent AT from Alford to Hamilton
+INFO:root:Sent AT from Alford to Welsh
+INFO:root:Connected to server Alford
+INFO:root:Connected to server Alford
+INFO:root:Received command b'AT Alford +32874140.90269041 kobe.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'AT Alford +32874140.90269041 kobe.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Received command b'WHATSAT kiwi.cs.ucla.edu 50 20\r\n' from client
+INFO:root:Made GET request for kiwi.cs.ucla.edu

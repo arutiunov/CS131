@@ -1,0 +1,84 @@
+1) Since the only difference between the old and new
+representations of grammar is a list versus a matcher
+function with embedded mini-lists. The left-hand-side
+of the grammar - the starting symbol - remains the same.
+Thus, all I had to do was return a function for
+convert_grammar that takes the starting non-terminal
+symbol and returns the corresponding rules. For sake
+of clarity of code, I decided to use a recursive helper function
+named rules_parser_helper that performs the grunt work
+of recursing through the old grammar.
+
+
+2) After recognizing that parse_prefix ultimately had
+to return a possible derivation for the input, I realized
+that the nature of the problem required me to work backwards
+in terms of how the fragment was generated in the context
+of the grammar passed to the parse_prefix function.
+
+I decided to take on the approach of incremental development.
+The most elementary case is if the original starting symbol
+of the given grammar does not match any of the grammar rules.
+In that case, I returned 'None' because the grammar
+does not apply to the fragment.
+
+Next, in the genral case of the grammar and fragment coinciding,
+I realized the process at a high level
+for parsing the fragment and returning the derivation was to
+find the derivation path for each element in the fragment and
+continue to find the path for each element until
+we encounter a situation when we can longer shift elements in
+the prefix and just return the suffix (either because we
+cannot further derive the prefix or because we are done).
+
+After doing some research and lots of thinking, I realized the
+best way to tackle this problem was to split it into two mutually
+recursive functions: ruleMatcher and fragMatcher. The OCaml
+keyword for mutually recurisve functions is "and."
+
+I decided to implement ruleMatcher and fragMatcher as helper
+functions outside of the scope of parse_prefix to maintain
+clarity in the code. 
+
+I will first describe how I implemented ruleMatcher, then
+fragMatcher, and lastly the actual parse_prefix function.
+
+ruleMatcher: 
+Takes the following parameters:
+the starting (nonterminal) symbol, the given grammar rules, the first rule in the
+grammar found by running the starting symbol through the grammar rules, the derivation,
+the actual terminal fragment, and the acceptor function. Then, ruleMatcher
+will call fragMathcher to see whether that first rule matches any of the
+elements found in the fragment. If not, then we call ruleMatcher again, this time
+with the second rule in the list from the grammar found from the starting symbol. If
+the fragMatcher finds a match between a rule and a symbol, then we return a result.
+
+fragMatcher:
+Takes the following parameters:
+all the grammar rules, the current rule being checked, the derivation, the fragment,
+and the acceptor. When we match the current rule with an element in the fragment, 
+we add the corresponding starting symbol (left hand side of the grammar, technically)
+and the rule itself to the derivation. In the case of a succesful match, we move on
+to the next element within the fragment, and we continue with this process until
+we either have an empty fragment - which means we return whatever the acceptor returns
+on the suffix - or we call ruleMatcher again with the corresponding nonterminal
+expression being the "left-hand-side" of the grammar. In this case, we have to
+change our acceptor to be the right-hand-side of the rest of the fragment, that way
+doing the derivation for each element of the fragment as we iterate through the grammar
+until the fragment is empty and all we have left is the suffix.
+
+parse_prefix:
+Takes the following parameters:
+the grammar, and (technically optionally) the fragment and the acceptor. The grammar
+is split into its two main components - the very original starting symbol and
+the corresponding rules on the right hand side - and then ruleMatcher is called
+for the first time, which sets off the mutual recursion.
+
+conclusion:
+This solution isn't perfect, as it makes two critical assumptions
+about the grammar being passed to the parse_prefix function. The
+first assumption is checking for blind-alley rules. Without checking
+for blind-alley rules, one runs the risk of recursing into an
+infinite loop due to the inability to ever reach an entire set of
+terminal symbols. The second one is assuming that the grammar has
+a starting point.

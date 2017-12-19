@@ -1,0 +1,96 @@
+#lang racket
+
+(define(null-ld? obj)
+  (if (not(pair? obj))
+      #f
+  (if (eq? (car obj)(cdr obj)) #t #f)))
+
+(define(listdiff? obj)
+  (if (pair? obj)
+      (let((front(car obj))(rest(cdr obj)))
+            (if (eq? front rest)
+                #t
+                (if (pair? front)
+                    (listdiff? (cons (cdr front) rest))
+                    #f
+                    )
+                )
+            )
+      #f
+      )
+  )
+
+(define (cons-ld obj listdiff)
+  (let((newlistdiff(cons obj (car listdiff))))
+    (cons newlistdiff(cdr listdiff)))
+  )
+
+(define (car-ld listdiff)
+  (
+  if(listdiff? listdiff)
+    (
+     if (not(null-ld? listdiff))
+        (
+         car (car listdiff)
+        )
+        (
+         display "error! it is a null list pair!\n"
+        )
+    )
+    (
+    display "error! not a listdiff!\n"
+    )
+  )
+)
+
+(define(cdr-ld listdiff)
+  (
+   if (listdiff? listdiff)
+      (
+       if (not(null-ld? listdiff))
+              (
+               cdr listdiff
+               )
+              (
+               display "error! it is a null list pair!\n"
+               )
+       )
+      (
+       display "error! not a listdiff!"
+       )
+  )
+)
+
+
+
+
+(define(length-ld listdiff)
+     (if(listdiff? listdiff)
+            (
+                if(not(null-ld? listdiff))
+                   ( let((newHead(cdar listdiff)))
+                          (+ 1 (length-ld (cons newHead (cdr listdiff))))
+                   )
+                    0
+           )
+              (display "error!\n")
+              
+     )
+)
+
+
+(define ils (append '(a e i o u) 'y))
+(define d1 (cons ils (cdr (cdr ils))))
+(define d2 (cons ils ils))
+(define d3 (cons ils (append '(a e i o u) 'y)))
+(define d4 (cons '() ils))
+(define d5 0)
+
+(length-ld d1)
+
+
+
+
+  
+  
+        

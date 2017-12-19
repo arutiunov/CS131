@@ -1,0 +1,134 @@
+INFO:root:Server Hamilton created
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836410.51308155 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836410.51308155 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499906430.4745557 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499906430.4745557 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836444.028060436 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836444.028060436 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836638.914381504 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32836638.914381504 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Server Hamilton created
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837111.8441844 kiwi 34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837111.8441844 kiwi 34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837205.686229706 kiwi -118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837205.686229706 kiwi -118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837284.65046358 kiwi Los_Angeles 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837284.65046358 kiwi Los_Angeles 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +2991665132.8092666 kiwi +34.060000-118.000000 -1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +2991665132.8092666 kiwi +34.060000-118.000000 -1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837421.386134624 %b +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client %b
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837421.386134624 %b +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client %b
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837501.872534513 \\xff +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client \xff
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32837501.872534513 \\xff +34.060000-118.000000 1479413884.3920145\n' from client
+INFO:root:Received information about client \xff
+INFO:root:Server Hamilton created
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846011.800989628 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846011.800989628 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846078.19081354 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Server Hamilton created
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846131.28200054 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846131.28200054 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846147.645225525 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846147.645225525 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499916162.4647489 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499916162.4647489 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846193.797495365 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32846193.797495365 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Server Hamilton created
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873902.100238323 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873902.100238323 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873918.430867434 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873918.430867434 kiwi.cs.ucla.edu +69.068930-69.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873949.311436415 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32873949.311436415 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kiwi.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499944061.3229487 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499944061.3229487 kobe.cs.ucla.edu +69.045450-8273.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499944121.6992285 kobe.cs.ucla.edu +69.045450-873.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +1499944121.6992285 kobe.cs.ucla.edu +69.045450-873.45127 12343884.3920234\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32874140.90269041 kobe.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
+INFO:root:Connected to server Hamilton
+INFO:root:Received command b'AT Alford +32874140.90269041 kobe.cs.ucla.edu +34.068930-118.445127 1479413884.3920145\n' from client
+INFO:root:Received information about client kobe.cs.ucla.edu
